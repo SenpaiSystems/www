@@ -1,14 +1,24 @@
 !.vscode/settings.json
 !.vscode/launch.json
-backend/config/*
-!backend/config/config.defaults.yml
-!backend/config/config.defaults.py
-!backend/config/__init__.py
-webapp/public/sitemap.xml
-client_secret_*
 
-# Created by https://www.toptal.com/developers/gitignore/api/vim,windows,macos,vscode,python,node
-# Edit at https://www.toptal.com/developers/gitignore?templates=vim,windows,macos,vscode,python,node
+
+# Created by https://www.toptal.com/developers/gitignore/api/vim,windows,macos,vscode,python,node,hugo
+# Edit at https://www.toptal.com/developers/gitignore?templates=vim,windows,macos,vscode,python,node,hugo
+
+### Hugo ###
+# Generated files by hugo
+/public/
+/resources/_gen/
+/assets/jsconfig.json
+hugo_stats.json
+
+# Executable may be added to repository
+hugo.exe
+hugo.darwin
+hugo.linux
+
+# Temporary lock file while building
+/.hugo_build.lock
 
 ### macOS ###
 # General
@@ -349,6 +359,9 @@ poetry.toml
 # ruff
 .ruff_cache/
 
+# LSP config files
+pyrightconfig.json
+
 ### Vim ###
 # Swap
 [._]*.s[a-v][a-z]
@@ -398,4 +411,4 @@ $RECYCLE.BIN/
 # Windows shortcuts
 *.lnk
 
-# End of https://www.toptal.com/developers/gitignore/api/vim,windows,macos,vscode,python,node
+# End of https://www.toptal.com/developers/gitignore/api/vim,windows,macos,vscode,python,node,hugo

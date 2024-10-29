@@ -1,0 +1,22 @@
+baseURL: "https://senpai.systems/"
+languageCode: "fr"
+title: "Senpai.Systems"
+theme: "PaperMod"
+mainsections: ["guides"]
+defaultContentLanguage: "fr"
+menu:
+  main:
+    - name: Guides
+      url: guides/
+params:
+  DateFormat: "Le 2 January 2006 à 03:04:05"
+  socialIcons:
+    - name: Website
+      title: SenpaiSilver.com
+      url: "https://senpaisilver.com"
+    - name: Discord
+      title: Join discord community
+      url: "https://discord.gg/7wruAMUCv3"
+    - name: KoFi
+      title: Buy me a Ko-Fi :)
+      url: "https://ko-fi.com/senpaisilver"

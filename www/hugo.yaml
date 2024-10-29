@@ -4,19 +4,36 @@ title: "Senpai.Systems"
 theme: "PaperMod"
 mainsections: ["guides"]
 defaultContentLanguage: "fr"
+taxonomies:
+  category: catégorie
+  tag: tags
 menu:
   main:
+    - name: Accueil
+      pageRef: /
     - name: Guides
-      url: guides/
+      pageRef: guides/
+  # footer:
+  #   - name: Discord
+  #     url: https://discord.gg/7wruAMUCv3
 params:
+  homeInfoParams:
+    Title: "Soyons utile 👏"
+    Content: "Un recueil d'informations et de guides"
   DateFormat: "Le 2 January 2006 à 03:04:05"
   socialIcons:
-    - name: Website
+    - name: Home
       title: SenpaiSilver.com
       url: "https://senpaisilver.com"
+    - name: Twitter
+      title: Suivez-moi sur Twitter
+      url: "https://x.com/senpaisilver"
+    - name: BlueSky
+      title: Suivez-moi sur BlueSky
+      url: "https://bsky.app/profile/senpaisilver.bsky.social"
     - name: Discord
-      title: Join discord community
+      title: Rejoignez ma communauté
       url: "https://discord.gg/7wruAMUCv3"
     - name: KoFi
-      title: Buy me a Ko-Fi :)
+      title: Je ne bois que du thé
       url: "https://ko-fi.com/senpaisilver"

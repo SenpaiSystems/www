@@ -17,6 +17,8 @@ menu:
   #   - name: Discord
   #     url: https://discord.gg/7wruAMUCv3
 params:
+  # ShowShareButtons: true
+  ShowReadingTime: true
   homeInfoParams:
     Title: "Soyons utile 👏"
     Content: "Un recueil d'informations et de guides"
@@ -38,3 +40,20 @@ params:
   #   - name: KoFi
   #     title: Je ne bois que du thé
   #     url: "https://ko-fi.com/senpaisilver"
+privacy:
+  disqus:
+    disable: true
+  googleAnalytics:
+    disable: true
+  instagram:
+    disable: true
+  vimeo:
+    disable: true
+  twitter:
+    disable: false
+    enableDNT: true
+    simple: true
+    disableInlineCSS: true
+  youtube:
+    disable: false
+    privacyEnhanced: true

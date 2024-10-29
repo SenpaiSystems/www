@@ -1,6 +1,6 @@
 import { Translation } from "./locale";
 
 export const fr_translations: Translation = {
-    about_me: "A propos de moi",
-    AboutMePresentation: <p>Hello World!</p>,
+    // aboutTitle: "A propos de moi",
+    // aboutBody: <p>Hello World!</p>,
 };

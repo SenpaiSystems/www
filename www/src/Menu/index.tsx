@@ -22,20 +22,22 @@ export default function Menu() {
     ];
 
     return (
-        <nav>
-            <BurgerMenu>
-                {links.map((link) => (
-                    <Link key={link.href} to={link.href}>
-                        {link.title}
-                    </Link>
-                ))}
-            </BurgerMenu>
-            <div className="utility">
-                <div id="language">
-                    <LanguageSwitcher languages={languages} />
+        <section>
+            <nav>
+                <BurgerMenu>
+                    {links.map((link) => (
+                        <Link key={link.href} to={link.href}>
+                            {link.title}
+                        </Link>
+                    ))}
+                </BurgerMenu>
+                <div className="utility">
+                    <div id="language">
+                        <LanguageSwitcher languages={languages} />
+                    </div>
                 </div>
-            </div>
-        </nav>
+            </nav>
+        </section>
     );
 }
 

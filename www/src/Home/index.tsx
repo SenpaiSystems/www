@@ -1,4 +1,3 @@
-import AssetCrossedArm from "../assets/crossedarms.png";
 import "./index.scss";
 import { LanguageContext } from "../Language/locale";
 import { useContext } from "react";
@@ -8,8 +7,25 @@ export default function Home() {
 
     return (
         <>
-            <h1>{locale.translations("about_me")}</h1>
-            <div className="desktop-60">{locale.translations("AboutMePresentation")}</div>
+            <section className="about">
+                <div>
+                    <h1>{locale.translations("aboutTitle")}</h1>
+                    <div>{locale.translations("aboutBody")}</div>
+                </div>
+            </section>
+
+            <section className="support">
+                <div>
+                    <h1>{locale.translations("supportTitle")}</h1>
+                    <div>{locale.translations("supportBody")}</div>
+                </div>
+            </section>
+            <section className="warranty">
+                <div>
+                    <h1>{locale.translations("warrantyTitle")}</h1>
+                    <div>{locale.translations("warrantyBody")}</div>
+                </div>
+            </section>
         </>
     );
 }

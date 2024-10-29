@@ -72,8 +72,7 @@ Les VPN sont très utilisé en entreprise pour permettre par exemple aux salari�
 d'accéder à des services internes à l'entreprise en dehors des locaux sans
 exposer ces services de façon public sur internet.
 
-![Réseau privé virtual sur Wikipedia](/guides/sécurité-101/vpn_schema.png "Réseau privé virtual sur Wikipedia")
-Réseau privé virtuel [sur Wikipedia](https://fr.wikipedia.org/wiki/R%C3%A9seau_priv%C3%A9_virtuel).
+{{<figure src="/guides/sécurité-101/vpn_schema.png" title="Réseau privé virtuel par Wikipedia" alt="Schéma d'un réseau VPN">}}
 
 
 Dans les jeux vidéo les VPN peuvent être utilisé pour router le traffic réseau
@@ -281,3 +280,7 @@ Il est difficile de couvrir toutes les formes d'attaques, d'arnaques et leurs
 mitigations. Le but de cette page était d'informer avant tout et d'essayer
 d'expliquer certaines choses. Malheureusement cette page est dense en
 informations car il y a beaucoup trop de choses à couvrir.
+
+## Crédits
+
+1. [Wikipédia: Réseau privé virtuels](https://fr.wikipedia.org/wiki/R%C3%A9seau_priv%C3%A9_virtuel)
